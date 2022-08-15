@@ -10,3 +10,4 @@ const Count = ({ text, count }) => {
 };
 
 export default React.memo(Count);
+// export default Count;

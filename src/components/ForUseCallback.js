@@ -18,11 +18,15 @@ const ForUseCallback = () => {
 
 	return (
 		<div>
-			<Title />
+			<Title text='useCallback' />
 			<Count text='Plus' count={numForPlus} />
-			<Button handleClick={plus}>PLUS 100</Button>
+			<Button handleClick={plus} text='Plus-callback'>
+				PLUS 100
+			</Button>
 			<Count text='Minus' count={numForMinus} />
-			<Button handleClick={minus}>MINUS 1</Button>
+			<Button handleClick={minus} text='Minus-callback'>
+				MINUS 1
+			</Button>
 		</div>
 	);
 };
