@@ -23,9 +23,16 @@ const ForUseMemo = () => {
 	return (
 		<div>
 			<Title text='useMemo' />
+			<p>
+				Press the button. <br /> When you pressed +100 button, it happenes very
+				quick. <br /> But when you press -1 button, it takes longer than +
+				button. <br /> The reason is, the heavy function 'isEven' is being
+				rendered only when its parent div pressed because of useMemo.
+			</p>
 			<div>
 				<button onClick={plus}>{numForPlus} + 100</button>
 			</div>
+			<br />
 			<div>
 				<button onClick={minus} text='Minus-memo'>
 					{numForMinus} - 1

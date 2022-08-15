@@ -19,14 +19,20 @@ const ForUseCallback = () => {
 	return (
 		<div>
 			<Title text='useCallback' />
+			<p>
+				Open the console. <br /> When you press the button, the only part using
+				changed states are being rendered.
+			</p>
 			<Count text='Plus' count={numForPlus} />
 			<Button handleClick={plus} text='Plus-callback'>
 				PLUS 100
 			</Button>
+			<br />
 			<Count text='Minus' count={numForMinus} />
 			<Button handleClick={minus} text='Minus-callback'>
 				MINUS 1
 			</Button>
+			<p>--------------------------------------</p>
 		</div>
 	);
 };
