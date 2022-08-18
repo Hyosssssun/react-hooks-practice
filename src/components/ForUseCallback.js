@@ -32,7 +32,6 @@ const ForUseCallback = () => {
 			<Button handleClick={minus} text='Minus-callback'>
 				MINUS 1
 			</Button>
-			<p>--------------------------------------</p>
 		</div>
 	);
 };

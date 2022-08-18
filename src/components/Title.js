@@ -2,7 +2,12 @@ import React from 'react';
 
 const Title = ({ text }) => {
 	console.log('-------------------------Title rendered');
-	return <h2>{text}</h2>;
+	return (
+		<div>
+			<p>--------------------------------------</p>
+			<h2>{text}</h2>
+		</div>
+	);
 };
 
 export default React.memo(Title);
