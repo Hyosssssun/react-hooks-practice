@@ -9,7 +9,7 @@ const Com2 = () => {
       {isPink ? (
         <p style={{ color: 'pink' }}>hi I am Component2 in pink</p>
       ) : (
-        <p>hi I am Component2 in not pink</p>
+        <p>hi I am Component2 not in pink</p>
       )}
     </div>
   );

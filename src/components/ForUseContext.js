@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, createContext } from 'react';
 import Title from './Title';
 import Com1 from './Com1';
 import Com2 from './Com2';
-import { createContext } from 'react';
 
 export const makePink = createContext({});
 
